@@ -1,0 +1,23 @@
+/* styles.css */
+
+.section1 {
+    position: absolute;
+    background-color: #fbfbfb;
+    height: 555px;
+    width: 555px;
+}
+
+.helloworld {
+    color: #1e1e1e;
+    text-align: center;
+    font-size: 80px;
+    font-family: Inter, Arial, sans-serif;
+    letter-spacing: -2.2px;
+    line-height: 150px;
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 555px;
+    left: 555px;
+    top: 305px;
+}
