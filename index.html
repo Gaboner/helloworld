@@ -1,0 +1,67 @@
+<html> 
+  <head>
+    <title>Hello World</title> 
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body> 
+    
+    <header>
+      <h1> Sky Rent</h1>
+     
+      </header>
+
+      <div style="text-align: center;" class="cont">
+    
+
+        <div> 
+              <img src=https://hips.hearstapps.com/hmg-prod/images/2019-honda-civic-sedan-1558453497.jpg?crop=1xw:0.9997727789138833xh;center,top&resize=980:* alt="Header Image">
+            <p class="hnn">Honda</p> 
+        </div>
+        <div>
+            <img src=https://hips.hearstapps.com/hmg-prod/images/2019-mercedes-benz-e-class-coupe-1548703839.jpg?crop=1xw:0.9997727789138833xh;center,top&resize=980:* alt="Header Image">
+            <p>Mercedes</p>
+          </div>
+ 
+            <div>
+        <img src=https://hips.hearstapps.com/hmg-prod/images/2019-volkswagen-golf-gti-1548698211.jpg?crop=1xw:1xh;center,top&resize=980:* alt="Header Image">
+        <p>Volkswagen</p> 
+           </div>
+
+
+
+      </div>
+
+      <h2>
+        Planning for a self-drive trip in Iceland? Rent a car with the best car rental company in Iceland: SkyRent
+      </h2>
+             
+          <p>Wide range of vehicles:
+          Our fleet of vehicles is designed to make your Iceland road trip comfortable and exciting, so you can focus on exploring the stunning landscapes of Iceland. Whether you’re a seasoned traveller or a first-time visitor, our rental cars are the perfect choice for your Icelandic adventure.
+            </p> 
+
+      <div class="btnc">
+ 
+          <button class="btncenter" onclick="toggleConditions(this)">
+            <a href="https://www.hertz.is/">
+            Book here
+            </a>
+          </button>
+    </div>
+ 
+
+
+
+        <script>
+
+        function toggleConditions(button) {
+          var conditions = [ "Book here"];
+          var currentIndex = conditions.indexOf(button.textContent);
+          var nextIndex = (currentIndex + 1) % conditions.length;
+          button.textContent = conditions[nextIndex];
+      }
+      
+    </script>
+      
+  </body>
+</html>
